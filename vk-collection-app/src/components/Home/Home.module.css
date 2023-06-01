@@ -1,0 +1,13 @@
+.home-page {
+    background-color: rgb(105, 105, 105);
+    width: 75%;
+    margin: 0 auto;
+    height: calc(100vh - 66px);
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}

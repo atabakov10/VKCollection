@@ -29,13 +29,19 @@ export const DetailsPage = () => {
                 alt={selectedProduct.name}
               />
             </div>
-            <h2>{selectedProduct.name}</h2>
+            <h2>{selectedProduct.name} - {selectedProduct.price}$</h2>
             <div className={styles['desc-container']}>
               <h3 className={styles['header-desc']}>
                 Description:
               </h3>
               <span className={styles['desc-details']}>
                 {selectedProduct.description}
+              </span>
+            </div>
+            <div className={styles['category-container']}>
+              <h3>Category</h3>
+              <span className={styles['category-details']}>
+                {selectedProduct.categoryName}
               </span>
             </div>
           </section>

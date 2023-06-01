@@ -1,15 +1,15 @@
 .product-container {
     background-color: rgb(105, 105, 105);
     width: 75%;
-    margin: 0 auto;
-    height: calc(100vh - 66px);
+    margin: 10px auto;
+    border-radius: 6px;
 }
 
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
-    padding-top: 20px;
+    padding: 20px 0px;
 }
 
 .card-products {
@@ -21,7 +21,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    background-color: #f1f1f1;
 }
 
 .product{
@@ -30,14 +29,14 @@
 
 .details-link {
     text-decoration: none;
-    color: #f1f1f1;
+    color: #fff;
     transition: all 200ms;
-    background-color: aqua;
+    background-color: rgb(160, 160, 160);
     border-radius: 20px;
     padding: 10px;
 }
 
 .details-link:hover{
-    color: #fff;
-    background-color: blue;
+    color: #f1f1f1;
+    background-color: Gray;
 }

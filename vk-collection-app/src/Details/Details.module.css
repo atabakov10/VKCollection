@@ -1,0 +1,39 @@
+.details-article {
+    background-color: rgb(105, 105, 105);
+    width: 75%;
+    margin: 0 auto;
+    height: calc(100vh - 66px);
+}
+
+.details-section {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+}
+
+.image-container {
+    margin-bottom: 20px;
+}
+
+.small-image {
+    max-width: 400px;
+    /* Adjust the size as per your requirements */
+    max-height: 400px;
+    /* Adjust the size as per your requirements */
+}
+
+.desc-container {
+    margin-top: 20px;
+    border: #f1f1f1 solid;
+    width: 75%;
+    padding: 20px;
+}
+
+.header-desc {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}

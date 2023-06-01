@@ -32,8 +32,12 @@
     text-decoration: none;
     color: #f1f1f1;
     transition: all 200ms;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .details-link:hover{
     color: #fff;
+    background-color: blue;
 }

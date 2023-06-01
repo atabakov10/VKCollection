@@ -29,7 +29,9 @@ export const DetailsPage = () => {
                 alt={selectedProduct.name}
               />
             </div>
-            <h2>{selectedProduct.name} - {selectedProduct.price}$</h2>
+            <div className={styles['name-price']}>
+              <h2>{selectedProduct.name} - {selectedProduct.price}$</h2>
+            </div>
             <div className={styles['desc-container']}>
               <h3 className={styles['header-desc']}>
                 Description:
